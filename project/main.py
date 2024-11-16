@@ -36,11 +36,13 @@ def main():
 
     # Transformation 1
     winner_output = declare_winner(df)
-    markdown_content += "## Point differences in a match and winner declaration (for the 1st 10 rows)\n\n" + winner_output + "\n\n"
+    markdown_content += "## Data Transformation 1\n\n"
+    markdown_content += "### Creating a winner column for each game and calculate the point difference (1st 10 rows)\n\n" + winner_output + "\n\n"
 
     # Transformation 2
     games_output = calculate_games(df)
-    markdown_content += "## Games Played Analysis: Number of games played per team\n\n" + games_output + "\n\n"
+    markdown_content += "## Data Transformation 2\n\n"
+    markdown_content += "### Games Played Analysis: Number of games played per team\n\n" + games_output + "\n\n"
 
     # Stop the Spark session
     spark.stop()
