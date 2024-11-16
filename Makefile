@@ -13,7 +13,7 @@ lint:
 	#pylint --disable=R,C --ignore-patterns=test_.*?py *.py
 	#ruff linting is 10-100X faster than pylint
 
-	ruff check --ignore E501,F821 *.py 
+	ruff check --ignore E501,F821 project/*.py 
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
