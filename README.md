@@ -75,7 +75,7 @@ We used an NBA games statistics dataset containing metrics such as team points, 
 ## CI/CD Pipeline
 The project includes a CI/CD pipeline for automated testing and quality assurance:
 - **Formatting**: Code is formatted with `black`.
-- **Linting**: Ensures code quality with `flake8`.
+- **Linting**: Ensures code quality with `ruff`.
 - **Testing**: Runs test cases using `pytest`.
 
 ## Outputs
