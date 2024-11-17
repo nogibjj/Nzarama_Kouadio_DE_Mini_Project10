@@ -1,5 +1,6 @@
+[![CI](https://github.com/nogibjj/Nzarama_Kouadio_DE_Mini_Project10/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nzarama_Kouadio_DE_Mini_Project10/actions/workflows/cicd.yml)
 
-# DUKE MIDS DE Mini Project 10: NBA Stats Analysis Project
+# DUKE MIDS DE Mini Project 10: NBA Stats Analysis Project with PySpark
 
 
 ## Project Overview
